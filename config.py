@@ -11,17 +11,17 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("7162652056"))
 
 PING_IMG = getenv("PING_IMG", "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg")
-START_IMG = getenv("START_IMG", "https://te.legra.ph/file/f8ba75bdbb9931cbc8229.jpg")
+START_IMG = getenv("START_IMG", "https://te.legra.ph/file/bdb3237ce88a18f73e845.jpg")
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/fubuki_supports")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/fubuki_supports")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LEGENDSxGROUP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LEGENDSxNETWORK")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5483829443").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6407508299").split()))
 
 
 FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
